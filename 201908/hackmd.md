@@ -8,7 +8,7 @@ description: View the slide with "Slide Mode".
 
 <!-- Put the link to this slide here so people can follow -->
 slide: https://hackmd.io/p/template-talk-slide
-
+tutorials : https://hackmd.io/c/tutorials/%2Fs%2Flink-with-github
 
 
 ---
