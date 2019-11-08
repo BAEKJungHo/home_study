@@ -25,6 +25,16 @@ filter는 체크박스가 선택된 요소에 대해서 조건이 일치하는 �
 
 https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 
+```javascript
+const multiCntVal = chkboxes.map(chkbox => {
+
+}
+```
+
+이 chkbox는 chkboxes의 각각 인덱스에 해당하는 값을 가지고 있는 변수명이다.
+
+map은 기존에 chkboxes가 가지고 있는 배열을 대상으로 `chkbox => {}` 함수를 호출하여, 새로운 결과를 multiCntVal에 저장한다.
+
 
 ## 자바스크립트 화살표 함수
 
@@ -45,6 +55,8 @@ const result = x => {
 ## 프로토타입
 
 https://medium.com/@bluesh55/javascript-prototype-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-f8e67c286b67
+
+https://opentutorials.org/course/743/6573
 
 - 프로토타입 사용 전
 
@@ -83,3 +95,12 @@ console.log(baek.nose);
 메모리에 noes와 eyes가 1개씩 할당 된다.
 
 프로토타입은 객체(eyes, nose)를 빈 공간에 넣어두고 kim과 baek 객체가 eyes와 nose를 공유해서 사용하는 것이다. 
+
+- 프로토타입
+    - Prototype Object
+    - Prototype Link
+
+- prototype
+    - 함수에서만 사용가능
+- `_proto_`
+    - 모든 속성이 다 가지고 있는 요소
